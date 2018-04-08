@@ -1,10 +1,10 @@
 {
-  "name": "@crapthings/mantra-core",
+  "name": "mantra-core-upgrade",
   "version": "1.8.0",
   "description": "Core API for Mantra",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mantrajs/mantra-core.git"
+    "url": "git+https://github.com/crapthings/mantra-core.git"
   },
   "license": "MIT",
   "options": {
@@ -39,5 +39,11 @@
   },
   "peerDependencies": {
     "react": "^0.14.7 || ^15.0.0 || ^16.0.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/crapthings/mantra-core/issues"
+  },
+  "homepage": "https://github.com/crapthings/mantra-core#readme",
+  "main": "index.js",
+  "author": "mantrajs"
 }
